@@ -1,0 +1,13 @@
+以下、for文
+arrays = ["水","金","地","火","木","土","天","海","冥"]
+for value in range(2):
+  for value in arrays:
+    print(value)
+
+以下、while文
+arrays = ["水","金","地","火","木","土","天","海","冥"]
+i=1
+while i != 19:
+  for value in arrays:
+    print(value)
+    i = i + 1
