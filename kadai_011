@@ -11,3 +11,16 @@ while i != 19:
   for value in arrays:
     print(value)
     i = i + 1
+
+
+
+#以下に修正版を記載します
+arrays = ["水","金","地","火","木","土","天","海","冥"]
+
+for i in arrays:
+  print(i)
+
+i=0
+while i<=8:
+  print(arrays[i])
+  i=i+1
