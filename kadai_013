@@ -1,5 +1,0 @@
-def calculate_totalprice(product):
-  totalprice=product+product*0.1
-  print(f"{totalprice}円です")
-
-calculate_totalprice(1000)
