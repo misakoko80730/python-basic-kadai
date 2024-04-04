@@ -3,3 +3,10 @@ def calculate_totalprice(product):
   print(f"{totalprice}円です")
 
 calculate_totalprice(1000)
+
+
+#以下修正致しました。
+def calculate_totalprice(product,tax):
+  return product+product*tax
+  
+calculate_totalprice(1000,0.1)
