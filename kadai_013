@@ -10,3 +10,10 @@ def calculate_totalprice(product,tax):
   return product+product*tax
   
 calculate_totalprice(1000,0.1)
+
+
+#以下修正しました。
+def calculate_totalprice(product,tax):
+  return product+product*tax
+
+print(calculate_totalprice(1000,0.1))
