@@ -15,3 +15,21 @@ samurai=Human()
 samurai.printinfo("小次郎")
 samurai.printinfo(49)
 
+
+
+#以下に修正版記載致します
+class Human:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        
+    # メソッドを定義する
+
+    def printinfo(self):
+        print(self.name,self.age)
+
+# インスタンス化する
+samurai = Human("小次郎",49)
+
+# メソッドにアクセスして実行する
+samurai.printinfo()
