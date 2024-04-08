@@ -1,0 +1,17 @@
+class Human:
+  def __int__(who):
+    who.name=""
+    who.age=""
+
+  def printinfo(who,name):
+    who.name=name
+    print(who.name)
+  def printinfo(who,age):
+    who.age=age
+    print(who.age)
+
+samurai=Human()
+
+samurai.printinfo("小次郎")
+samurai.printinfo(49)
+
