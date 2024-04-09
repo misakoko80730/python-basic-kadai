@@ -1,0 +1,22 @@
+class User:
+    # コンストラクタを定義する
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def check_adult(self,age):
+        if(self.age >=20):
+          print("大人である")
+        else:
+          print("大人でない")
+
+# インスタンス化する
+user = User("侍太郎", 36)
+user1 = User("太郎", 16)
+
+user_ages=[user.age,user1.age]
+print(user_ages)
+
+user.check_adult(age)
+user1.check_adult(age)
+
