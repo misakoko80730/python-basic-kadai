@@ -11,12 +11,24 @@ class User:
           print("大人でない")
 
 # インスタンス化する
-user = User("侍太郎", 36)
-user1 = User("太郎", 16)
+user = User("侍太郎", age)
+user1 = User("太郎", age)
+
+
+import random
+user.age=random.randint(10,40)
+user1.age=random.randint(10,40)
 
 user_ages=[user.age,user1.age]
+user_names=[user.name,user1.name]
+
 print(user_ages)
+print(user_names)
+
+for value in user_ages:
+    print(value)
+for value in user_names:
+    print(value)
 
 user.check_adult(age)
 user1.check_adult(age)
-
