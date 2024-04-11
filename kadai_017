@@ -1,3 +1,35 @@
+----以下に再提出致します-------------------
+class Human:
+    # コンストラクタを定義する
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def check_adult(self,age):
+      self.age=age
+      if(self.age >=20):
+        print("大人である")
+      else:
+        print("大人でない")
+
+# インスタンス化する
+user = Human("侍太郎","")
+user1 = Human("太郎","")
+
+import random
+user.age = random.randint(1,100)
+user1.age = random.randint(1,100)
+
+user_ages=[user.age,user1.age]
+for value in user_ages:
+    print(value,)
+
+print(user.name,user.age)
+user.check_adult(user.age)
+print(user1.name,user1.age)
+user.check_adult(user1.age)
+
+--------------------------------------
 class User:
     # コンストラクタを定義する
     def __init__(self, name, age):
@@ -32,3 +64,5 @@ for value in user_names:
 
 user.check_adult(age)
 user1.check_adult(age)
+
+------------------------------------------
