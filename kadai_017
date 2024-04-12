@@ -1,3 +1,28 @@
+以下に再々提出致します
+
+class Human:
+    # コンストラクタを定義する
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def check_adult(self):
+      if(self.age >=20):
+        print(self.name+"は大人である")
+      else:
+        print(self.name+"は大人でない")
+
+# インスタンス化する
+user = Human("侍太郎",20)
+user1 = Human("太郎",10)
+
+users=[user,user1]
+
+for value in users:
+    value.check_adult()
+
+
+
 ----以下に再提出致します-------------------
 class Human:
     # コンストラクタを定義する
